@@ -18,3 +18,14 @@
     - Master Forms ( Simple Forms , Reactive Forms)
     - Fetch and Handle Data
     - Build Projects    .. 
+# Topics:
+    - Installation
+    - File Expaination
+    - Components
+    - Data Binding (One Way Data Binding , Two Way Data Binding , Property Binding)
+    - Directives ( Component Directives , Structural Directives , Attribute  Directives)
+            - Component Directives: Directives are related to html template only.
+            - Structural Directives : Related to elements only  : Example : ngIf ,ngswitch , ng-for
+            - Attribute Directives : Related to Attributes  : ng-style , ng-class ...
+    - Routes
+    - Services

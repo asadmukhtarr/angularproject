@@ -3,4 +3,23 @@
     <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur earum dignissimos fugit ad architecto nulla tempore consectetur excepturi debitis, magnam mollitia totam numquam! Ad iure libero vel soluta fugiat deserunt harum velit eius, tenetur pariatur corrupti in laborum molestias magnam nihil temporibus maiores accusamus consequatur eos. Odit voluptates rem magnam voluptas reiciendis pariatur minima incidunt temporibus unde nam, commodi quos provident ex omnis saepe maxime officiis mollitia voluptatem! Est, facere aperiam! Quae earum atque doloremque, aliquid nam ducimus rem harum ea itaque, in hic sit quibusdam quod expedita. Asperiores voluptatem veritatis suscipit dolor. Corrupti laudantium, eligendi perspiciatis mollitia ipsa doloremque iure harum obcaecati. Illo, reiciendis delectus? Assumenda voluptas enim necessitatibus cumque esse blanditiis explicabo dolorum. Laboriosam excepturi ratione porro ullam, provident a nostrum consequatur et? Repellat sunt a facere? A eum eligendi quae sunt distinctio nesciunt, tenetur repellendus vero omnis recusandae harum consectetur veniam amet laboriosam asperiores id, necessitatibus dignissimos sed? Nisi, inventore. Expedita id accusantium quas, iste explicabo, facilis quos quisquam nostrum molestias animi iure dolor repellat ex debitis dolore reiciendis! Fugiat doloremque ipsam a atque ut corporis nostrum provident fugit, necessitatibus, laborum velit molestias commodi explicabo voluptatem. Error voluptates aliquid ducimus. Numquam odit aliquam, itaque corrupti adipisci dignissimos?
     </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <button class="btn btn-danger btn-sm rounded-0" (click)="clicked()"> Hide </button>
+                <button class="btn btn-info m-2 btn-sm rounded-0" (click)="clickAgain()"> Show </button>
+                <button class="btn btn-warning m-2 btn-sm rounded-0" (click)="clicker()"> Toggle </button>
+                <div class="card rounded-0 mt-2" *ngIf="isVisible">
+                    <div class="card-header">
+                        <h2>Hello World {{ isVisible }}</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et cupiditate tempore, veritatis iusto, delectus minus blanditiis culpa nobis quis at earum ipsam illum omnis magni, commodi voluptas distinctio nam provident vero laboriosam. Magnam quae amet reprehenderit nisi quas repellendus vitae debitis, molestias sunt sint quo officiis voluptatem earum asperiores ullam. Expedita accusamus ipsum deserunt facilis iusto dolores libero est ullam, accusantium eveniet fugiat ad saepe et! Minus ipsam similique itaque corrupti vitae quasi iure illum libero alias asperiores ex dolor omnis incidunt molestiae harum vel non, officiis impedit corporis rem numquam reprehenderit, consequatur quis eum! Exercitationem mollitia maiores fuga numquam.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
