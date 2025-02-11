@@ -1,1 +1,22 @@
-<p>about works!</p>
+<div class="container">
+   <div class="row">
+    <div class="col-lg-6">
+        <p>about works!</p>
+        <h2> Before Pipe:</h2> 
+        <p>{{ title }}</p>
+        <h2>After Pipe:</h2>
+        <p>{{title | uppercase}}</p>
+        <hr />
+        <h2> Before Pipe Date:</h2> 
+        <p>{{ today }}</p>
+        <h2>After Pipe Date:</h2>
+        <p>{{today | date}}</p>
+    </div>
+    <div class="col-lg-6">
+        <h2> Before Pipe Currency:</h2> 
+        <p>{{ price }}</p>
+        <h2>After Pipe Date:</h2>
+        <p>{{price | currency:'USD'}}</p>
+    </div>
+   </div>
+</div>

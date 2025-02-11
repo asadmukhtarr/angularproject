@@ -28,4 +28,9 @@
             - Structural Directives : Related to elements only  : Example : ngIf ,ngswitch , ng-for
             - Attribute Directives : Related to Attributes  : ng-style , ng-class ...
     - Routes
+    - pipes are small type of functions ...
     - Services
+    - Form Validation ( Reactive , Simple Forms) + Datacreate Via API in DB
+    - Data Fetch Via API In Angular + Delete 
+    - Edit + Register 
+    - Auth and guards 
