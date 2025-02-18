@@ -3,6 +3,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { StudentsComponent } from './components/students/students.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { EditStudentComponent } from './components/edit-student/edit-student.component';
 
 export const routes: Routes = [
     {
@@ -16,6 +17,10 @@ export const routes: Routes = [
     {
         path:'students',
         component:StudentsComponent
+    },
+    {
+        path:'edit/:id',
+        component:EditStudentComponent
     },
     {
         path:'contact',
